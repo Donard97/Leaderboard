@@ -26,11 +26,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live Demo Link](https://rustamxon7.github.io/Leaderboard/)
+[Live Demo Link](https://donard97.github.io/Leaderboard/)
 
 ### Install
 
-To clone this repo go to "https://donard97.github.io/Leaderboard/"
+To clone this repo go to "https://github.com/Donard97/Leaderboard"
 
 git clone your repo
 
