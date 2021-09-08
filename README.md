@@ -1,6 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leaderboard
 
 ![image](https://user-images.githubusercontent.com/74506933/132481234-488ab3db-d5eb-4e0f-8a77-b8f46463dfa1.png)
 
