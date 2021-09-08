@@ -4,7 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
   font-family: 'Ubuntu', sans-serif;
+  font-size: 60%;
 }
 
 .title {
@@ -23,7 +27,7 @@
 
 .container {
   display: flex;
-  gap: 20rem;
+  gap: 15rem;
 }
 
 .scores {
