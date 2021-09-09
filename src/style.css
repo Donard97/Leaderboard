@@ -129,6 +129,7 @@ footer {
   color: white;
   font-size: 2rem;
   padding: 13px;
+  position: relative;
 }
 
 footer h3 {
