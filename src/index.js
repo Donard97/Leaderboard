@@ -1,7 +1,10 @@
 import './style.css';
 
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/10vOjBe9hlFeLKl7vtc7/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/3BZDDcKWho21O92Dwi8P/scores/';
+const form = document.getElementById('form');
 const refreshBtn = document.getElementById('refreshBtn');
+const userName = document.getElementById('name-input');
+const userScore = document.getElementById('score-input');
 
 const sendScores = async (url, userName, userScore) => {
   const gameResult = await fetch(url, {

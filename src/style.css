@@ -68,6 +68,9 @@ html {
   box-shadow: 3px 2px 0.5px 1px #000;
   margin-top: 15px;
   list-style: none;
+  height: 40rem;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .add-form {
