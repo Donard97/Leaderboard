@@ -12,28 +12,22 @@ html {
 }
 
 .title {
-  font-size: 5rem;
-  padding: 1.5rem;
-  background: #4a545d;
-  color: white;
-  letter-spacing: 2px;
+  font-size: 6rem;
+  padding-left: 4rem;
+  padding-top: 4rem;
 }
 
 .main {
   padding-left: 4rem;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  background-image: url(./background.jpeg);
-  height: 80rem;
-  background-repeat: no-repeat;
-  background-size: cover;
+  justify-content: center;
+  height: 70vh;
 }
 
 .container {
   display: flex;
-  gap: 5rem;
-  margin-right: 13rem;
+  gap: 15rem;
 }
 
 .scores {
@@ -57,42 +51,26 @@ html {
   font-size: 2rem;
   margin-top: 1rem;
   margin-left: auto;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem;
+  border: black solid 0.3rem;
   border-radius: 40% 26% 46% 47% / 1% 1% 1% 1%;
-  border-radius: 10px;
-  background: transparent;
+  box-shadow: 3px 2px 0.5px 1px #000;
+  background: white;
   cursor: pointer;
-}
-
-.btn:hover {
-  background: #4a545d;
-  color: white;
 }
 
 .scores-box {
   font-size: 2.5rem;
   display: flex;
   flex-direction: column;
+  border: black solid 0.3rem;
+  border-radius: 40% 26% 46% 47% / 1% 1% 1% 1%;
+  box-shadow: 3px 2px 0.5px 1px #000;
   margin-top: 15px;
   list-style: none;
   height: 40rem;
   overflow: hidden;
   overflow-y: scroll;
-  background: rgba(74, 84, 93, 0.7);
-  color: white;
-}
-
-.scores-box::-webkit-scrollbar {
-  width: 0.5em;
-}
-
-.scores-box::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-.scores-box::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
 }
 
 .add-form {
@@ -103,15 +81,11 @@ html {
 }
 
 .inputs {
-  padding: 0.7rem;
+  padding: 0.3rem;
   font-size: 2rem;
-  background: rgba(74, 84, 93, 0.7);
-  color: white;
-  border: none;
-}
-
-::placeholder {
-  color: white;
+  border: black solid 0.3rem;
+  border-radius: 40% 26% 46% 47% / 1% 1% 1% 1%;
+  box-shadow: 3px 2px 0.5px 1px #000;
 }
 
 .add-btn {
@@ -120,41 +94,6 @@ html {
 }
 
 li {
-  padding: 5px 15px;
-  font-weight: 500;
-}
-
-footer {
-  background: #4a545d;
-  color: white;
-  font-size: 2rem;
-  padding: 13px;
-}
-
-footer h3 {
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
-
-@media only screen and (max-width: 767px) {
-  .container {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-right: 7rem;
-  }
-
-  .scores-title {
-    font-size: 2.5rem;
-    margin-bottom: -3rem;
-  }
-
-  .scores-title li {
-    font-size: 2rem;
-  }
-
-  .btn {
-    font-size: 1.5rem;
-    color: white;
-    margin-top: 0;
-  }
+  padding: 5px;
+  font-weight: 600;
 }
