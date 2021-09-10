@@ -1,7 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-![image](https://user-images.githubusercontent.com/74506933/132481234-488ab3db-d5eb-4e0f-8a77-b8f46463dfa1.png)
+
+![image](https://user-images.githubusercontent.com/74506933/132759336-0c7cce07-c83d-4fda-9b82-26a6106611c4.png)
+
+
 
 Additional description about the project and its features.
 
