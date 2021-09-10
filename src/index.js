@@ -41,5 +41,7 @@ const displayScores = ((scores) => {
 });
 
 refreshBtn.addEventListener('click', () => {
-  getScore(url).then((data) => { displayScores(data); });
+getScore(url).then((data) =>{ displayScores(data); });
 });
+getScore(url).then((data) =>{ displayScores(data); });
+
